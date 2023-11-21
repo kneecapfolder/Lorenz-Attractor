@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        
+        <!--links-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--meta-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+        <canvas id="screen" width="1000" height="1000"></canvas>
+        <form name="toolbox">
+            <label for="lines">lines</label>
+            <input type="checkbox" name="lines" value="false"></br>
+            <label for="lines">amount</label>
+            <input type="number" min="1" max="20" name="amount" value="15" onkeydown="return false"></br>
+            <label for="scale">scale</label>
+            <input type="number" min="1" max="50" name="scale" value="15" onkeydown="return false"></br>
+        </form>
+    </body>
+    <script src="main.js"></script>
+</html>

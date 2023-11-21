@@ -1,0 +1,39 @@
+* {
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*:focus {
+    outline: none;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 1vh;
+    font-size: 2vh;
+}
+#screen {
+    z-index: 1;
+    border: 1vh solid white;
+    width: 80vh; height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+input[type = "number"] {
+    width: 2.5vh;
+}
+input[type = "checkbox"] {
+    width: 1.5vh; height: 1.5vh;
+    margin: 0;
+}
+form {
+    z-index: 99;
+    position: absolute;
+    margin: 70vh 65vh 0 0;
+}
